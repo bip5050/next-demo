@@ -1,0 +1,68 @@
+{
+  "name": "nextjs-boilerplate-simple",
+  "version": "1.0.0",
+  "author": "Bruno Bernardino <me@brunobernardino.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoBernardino/nextjs-boilerplate-simple.git"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "test": "jest --testTimeout=5000",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx .",
+    "pretty": "prettier --write '*.{js,jsx,ts,tsx,json,scss}' '**/*.{js,jsx,ts,tsx,json,scss}'",
+    "pretty/test": "prettier --check '*.{js,jsx,ts,tsx,json,scss}' '**/*.{js,jsx,ts,tsx,json,scss}'"
+  },
+  "dependencies": {
+    "@types/node": "16.11.1",
+    "@types/react": "17.0.30",
+    "@types/react-dom": "17.0.10",
+    "@types/styled-components": "5.1.15",
+    "axios": "0.23.0",
+    "dotenv": "10.0.0",
+    "next": "11.1.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-helmet": "6.1.0",
+    "react-show": "3.0.4",
+    "sass": "1.43.2",
+    "styled-components": "5.3.3",
+    "typescript": "4.4.4"
+  },
+  "devDependencies": {
+    "@types/enzyme": "3.10.9",
+    "@types/jest": "27.0.2",
+    "@types/react-helmet": "6.1.4",
+    "@typescript-eslint/eslint-plugin": "5.1.0",
+    "@typescript-eslint/parser": "5.1.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "27.3.1",
+    "babel-plugin-styled-components": "1.13.3",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.6",
+    "eslint": "8.0.1",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.26.1",
+    "expect": "27.3.1",
+    "expect-enzyme": "1.3.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "27.3.1",
+    "prettier": "2.4.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "17.0.2"
+  }
+}
